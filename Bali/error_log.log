@@ -1,0 +1,33 @@
+2024-02-12 05:36:07,982 - ERROR - Ошибка при выполнении файла Sites/argentina_russia_google.py: Traceback (most recent call last):
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 49, in <module>
+    run()
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 35, in run
+    formatted_date = format_relative_date(news['date'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 12, in format_relative_date
+    hours = int(re.search(r'\d+', date_str).group())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2024-02-12 05:48:43,893 - ERROR - Ошибка при выполнении файла Sites/argentina_russia_google.py: Traceback (most recent call last):
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 49, in <module>
+    run()
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 35, in run
+    formatted_date = format_relative_date(news['date'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\argentina_russia_google.py", line 12, in format_relative_date
+    hours = int(re.search(r'\d+', date_str).group())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2024-02-12 05:49:03,025 - ERROR - Ошибка при выполнении файла Sites/buenos_aires_russia_google.py: Traceback (most recent call last):
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\buenos_aires_russia_google.py", line 51, in <module>
+    run()
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\buenos_aires_russia_google.py", line 37, in run
+    formatted_date = format_relative_date(news['date'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimak\OneDrive\Рабочий стол\Max's Work\Sites\buenos_aires_russia_google.py", line 12, in format_relative_date
+    hours = int(re.search(r'\d+', date_str).group())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
